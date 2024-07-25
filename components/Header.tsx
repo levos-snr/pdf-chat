@@ -1,4 +1,5 @@
-import { SignedIn, UserButton } from "@clerk/nextjs";
+import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { ThemeToggle } from '@/components/theme-toggle'
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { FilePlus } from "lucide-react";
@@ -32,8 +33,9 @@ function Header() {
      </Button>
      
      <UserButton />
+     <ThemeToggle />
      </div>
-     
+      <SignedOut/>
      </SignedIn>
   </div>
   );
