@@ -1,6 +1,8 @@
 import FileUploader from "@/components/FileUploader";
 
+
 function UploadPage(){
+       
         return(
             <div>
                 {/* File Uploader */}
