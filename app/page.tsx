@@ -10,6 +10,10 @@ MonitorSmartphoneIcon
 import Image from 'next/image';
 import Link from 'next/link';
 
+const image = '/dashboard.png';
+
+
+
 const features = [
   {
           name: 'Store your PDF Documents',
@@ -71,7 +75,8 @@ export default function Home() {
     </div>
     <div className='relative overflow-hidden pt-16'>
     <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-    <Image src='https://i.imgur.com/VciRSTI.jpeg' alt='PDF Chatbot' width={2432} height={1442} className='mb-[-0%] rounded-xl shadow-2xl ring-1 ring-gray-900/10'/>
+    <Image src={image} alt='PDF Chatbot' width={2432} height={1442}
+    className='mb-[-0%] rounded-xl shadow-2xl ring-1 ring-gray-900/10'/>
     <div aria-hidden='true' className='relative'>
     <div className='absolute bottom-0 -inset-x-32 bg-gradient-to-t from-white/95 pt-[5%]'/>
     </div>
