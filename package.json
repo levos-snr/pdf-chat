@@ -12,7 +12,7 @@
     "@clerk/elements": "^0.10.5",
     "@clerk/nextjs": "^5.2.6",
     "@hookform/resolvers": "^3.9.0",
-    "@langchain/community": "^0.2.20",
+    "@langchain/community": "^0.3.10",
     "@langchain/core": "^0.2.18",
     "@langchain/openai": "^0.2.5",
     "@langchain/pinecone": "^0.0.8",
